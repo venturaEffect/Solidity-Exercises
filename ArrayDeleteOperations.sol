@@ -11,6 +11,7 @@ contract ArrayDeleteOperations {
     }
 
     function remPop() external {
+        myArray[x] = myArray[myArray.length - 1];
         myArray.pop();
     }
 
