@@ -22,11 +22,11 @@ contract WhileAndForLoop {
         }
     }
 
-    function getArray1() external view returns(uint[]) {
+    function getArray1() external view returns(uint[] memory) {
         return myArray1;
     }
 
-    function getArray2() external view returns(uint[]) {
+    function getArray2() external view returns(uint[] memory) {
         return myArray2;
     }
 }
